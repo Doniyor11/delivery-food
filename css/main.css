@@ -105,6 +105,7 @@ body {
 
 .main {
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, rgb(233, 231, 231) 100%);
+    padding-bottom: 90px;
 }
 
 .section-heading {
@@ -112,6 +113,7 @@ body {
     align-items: center;
     /* justify-content: space-between; */
     margin-bottom: 44px;
+    align-items: center;
 }
 
 .section-title {
@@ -159,13 +161,14 @@ body {
 
 .card-text {
     padding: 20px 35px 23px 23px;
-    /* height: 100%; */
+    height: 100%;
 }
 
 .card-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .card-title {
@@ -576,8 +579,15 @@ body {
         }
 
         .section-heading {
+            display: flex;
+            justify-content: flex-start;
             flex-wrap: wrap;
-            justify-content: center;
+            align-items: center;
+        }
+
+        .input-search {
+            flex-basis: 100%;
+            margin-left: 0;
         }
 
         .footer-block {
@@ -599,5 +609,22 @@ body {
         .footer-link:not(:last-child) {
             margin-right: 0;
         }
+
+        .food-name{
+            font-size: 18px;
+        }
+
+        .food-price{
+            font-size: 14px;
+        }
+
+        .counter-button{
+            width: 30px;
+            height: 25px;
+        }
+        .modal-pricetag {
+            padding: 10px 10px;
+            font-size: 20px;
+            line-height: 18px;
     }
 }
